@@ -12,5 +12,7 @@ nav.addEventListener("mouseout", (event) => {
 });
 
 //h2
-const h2 = document.querySelector("#logo-heading");
-h2.addEventListener("mouseover", (event) => {});
+const logo = document.querySelector("#logo-heading");
+logo.addEventListener("mouseover", (event) => {
+  event.target.style.backgroundColor = "red";
+});
